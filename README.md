@@ -37,7 +37,7 @@ DipBuyer is an advanced financial application that helps users identify and inve
 
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/yourusername/dipbuyer.git
+   git clone https://github.com/SergoVashakmadze/dipbuyer.git
    cd dipbuyer
    \`\`\`
 
