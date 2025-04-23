@@ -1,0 +1,61 @@
+/* Make sure TradingView widgets are visible */
+.tradingview-widget-container,
+.tradingview-widget-container iframe {
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* Fix for dark mode */
+.dark .tradingview-widget-container,
+.dark .tradingview-widget-container iframe {
+  background-color: #1e293b !important;
+}
+
+/* Fix for light mode */
+.light .tradingview-widget-container,
+.light .tradingview-widget-container iframe {
+  background-color: #ffffff !important;
+}
+
+/* Make sure chart elements are visible */
+.chart-page,
+.chart-container {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Remove any loading overlays */
+.loading-indicator {
+  display: none !important;
+}
+
+/* Fix for TradingView script errors */
+.tv-spinner-container,
+.tv-spinner {
+  display: none !important;
+}
+
+/* Ensure proper z-index for chart elements */
+.chart-markup-table,
+.pane-legend-line {
+  z-index: 1 !important;
+}
+
+/* Fix for chart container */
+[id^="tradingview-widget-"] {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+}
+
+/* Fix for TradingView widget container */
+.tradingview-widget-container {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
