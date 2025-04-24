@@ -43,7 +43,7 @@ DipBuyer is an advanced financial application that helps users identify and inve
 
 2. Install dependencies:
    \`\`\`bash
-   npm install
+   pnpm install
    # or
    yarn install
    \`\`\`
