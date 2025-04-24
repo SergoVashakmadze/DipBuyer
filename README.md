@@ -16,7 +16,7 @@ DipBuyer is an advanced financial application that helps users identify and inve
 - **Learning Resources**: Educational content for financial literacy and investment knowledge
 
 ## Technologies Used
-
+- **Coinbase AgentKid was used as a foundation for the development work.
 - **Frontend**: Next.js 13+ (App Router), React, TypeScript, Tailwind CSS
 - **UI Components**: shadcn/ui component library
 - **Charts**: Recharts for portfolio visualization
@@ -156,4 +156,4 @@ If you encounter issues with TradingView widgets:
 
 ---
 
-Created with ❤️ by Sergo Vashakmadze
+Created with ❤️ by Sergo Vashakmadze and Ifti Ahmed
